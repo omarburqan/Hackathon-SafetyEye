@@ -4,7 +4,8 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-from saftey import Ui_MainWindow
+# from saftey import Ui_MainWindow
+from newgui import Ui_MainWindow
 
 
 class MainWindow(QMainWindow):

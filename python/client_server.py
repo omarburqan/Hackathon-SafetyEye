@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import request
 
+
 app = Flask(__name__)
 
 newPic = "false"
@@ -37,3 +38,7 @@ def new_pic():
 def get_image():
     global image
     return image
+
+
+
+
