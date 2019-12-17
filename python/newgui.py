@@ -15,6 +15,7 @@ import requests
 import base64
 
 
+
 class Ui_MainWindow(object):
     def __init__(self):
         self.images = {"elictric" : "Elec.png" , "Fire" : "FireAttack.jpg"}
@@ -89,7 +90,9 @@ class Ui_MainWindow(object):
             if response.text == "true":
                 response = requests.get("http://10.144.66.31:5000/getImage")
                 pm = QtGui.QPixmap()
-                pm.loadFromData(base64.b64decode(response.text))
+                decoded = base64.b64decode(response.text)
+                print(decoded)
+                pm.loadFromData(decoded)
                 self.add_image("image " + str(self.counter),pm)
                 self.counter += 1
             time.sleep(5)
