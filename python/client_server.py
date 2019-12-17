@@ -34,7 +34,6 @@ def new_pic():
     temp = newPic
     if newPic == "true":
         newPic = "false"
-        data_json = {}
     print(newPic)
     return temp
 
