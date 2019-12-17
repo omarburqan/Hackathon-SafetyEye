@@ -8,13 +8,14 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import QIcon, QPixmap
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(686, 631)
-        MainWindow.setStyleSheet("background-color: #2a3950;\n"
+        MainWindow.setStyleSheet("background-color: #4A6572;\n"
 "")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -44,6 +45,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.addItem(spacerItem1)
         self.verticalLayout.addLayout(self.horizontalLayout_3)
         self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setContentsMargins(35, -1, -1, -1)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.listWidget = QtWidgets.QListWidget(self.centralwidget)
         self.listWidget.setMinimumSize(QtCore.QSize(156, 150))
@@ -56,23 +58,25 @@ class Ui_MainWindow(object):
 "    font: bold 12px;\n"
 "    min-width: 10em;\n"
 "    padding: 6px;\n"
+"    font: bold 14px;\n"
+"    color: #ffffff;\n"
 "}")
         self.listWidget.setObjectName("listWidget")
         self.horizontalLayout.addWidget(self.listWidget)
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setMinimumSize(QtCore.QSize(186, 80))
+        self.pushButton.setMinimumSize(QtCore.QSize(120, 80))
         self.pushButton.setMaximumSize(QtCore.QSize(80, 80))
         self.pushButton.setStyleSheet("QPushButton {\n"
-"    background-color: #fd8469;\n"
+"    background-color: #f9aa33;\n"
 "    border-style: outset;\n"
 "    border-width: 2px;\n"
 "    border-radius: 35px;\n"
 "    border-color: beige;\n"
 "    font: bold 14px;\n"
-"    min-width: 10em;\n"
 "    padding: 6px;\n"
+"    color: #ffffff;\n"
 "}")
-        self.pushButton.setText("")
+        self.pushButton.setText("show")
         self.pushButton.setObjectName("pushButton")
         self.horizontalLayout.addWidget(self.pushButton)
         self.verticalLayout.addLayout(self.horizontalLayout)
@@ -81,7 +85,8 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2.setSpacing(9)
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setMinimumSize(QtCore.QSize(156, 350))
+        self.label.setMinimumSize(QtCore.QSize(600, 450))
+        self.label.setMaximumSize(QtCore.QSize(600, 450))
         self.label.setStyleSheet("QLabel#label {\n"
 "    background-color: #2a3950;;\n"
 "    border-style: outset;\n"
@@ -100,8 +105,6 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
-        self.pushButton.setStyleSheet("background-image: url('FireAttack.jpg'); border: none;")
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate

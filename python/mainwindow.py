@@ -19,7 +19,7 @@ class MainWindow(QMainWindow):
         super(MainWindow, self).__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.images = {"ee" : "Elec.png"}
+        self.images = {}
         self.tread_keep_alive = True
         self.counter = 0
         self.add_images_to_list()
@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         # print(self.listWidget.currentItem().text())
         pixmap = QPixmap(self.images[self.ui.listWidget.currentItem().text()])
 
-        pixmap = pixmap.scaled(800, 800, QtCore.Qt.KeepAspectRatio)
+        pixmap = pixmap.scaled(580, 650, QtCore.Qt.KeepAspectRatio)
         self.ui.label.setPixmap(pixmap)
 
 
