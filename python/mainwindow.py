@@ -11,7 +11,7 @@ import base64
 # from saftey import Ui_MainWindow
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-from newgui import Ui_MainWindow
+from app_gui import Ui_MainWindow
 
 
 class MainWindow(QMainWindow):
@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         # print(self.listWidget.currentItem().text())
         pixmap = QPixmap(self.images[self.ui.listWidget.currentItem().text()])
 
-        pixmap = pixmap.scaled(300, 200, QtCore.Qt.KeepAspectRatio)
+        pixmap = pixmap.scaled(800, 800, QtCore.Qt.KeepAspectRatio)
         self.ui.label.setPixmap(pixmap)
 
 
@@ -49,7 +49,6 @@ class MainWindow(QMainWindow):
         print("image added from server")
 
     def thread_function(self):
-        print("sd")
         while self.tread_keep_alive:
             try:
                 response = requests.get("http://10.144.66.31:5000/newPic")
