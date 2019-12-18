@@ -7,11 +7,17 @@
 * [Ahmad Amara](https://github.com/AhmadAmara)
 * [Kammel Heib](https://github.com/Kammel-Heib)
 
-#### Automatically detect the uses of Safety tools by analyzing the surveillance images. Based on the collected images, we ﬁrst detect the object of interest and further analyze whether the worker wears the Safety tools or not, by using computer vision and deep learning. 
 
-## This operations  done at the  raspberry pi without streaming data all the time only when some employee break the law of safety. 
+### Introduction 
+Hackathon project made using Cpp and Python based on raspberry pi 4 to detect safety tools in industrial.
 
-### Solution properties : cheap , privacy , effective , appropriate for multi platforms.
+## About 
+Automatically detect the uses of Safety tools by analyzing the surveillance images. Based on the collected images, we ﬁrst detect the object of interest and further analyze whether the worker wears the Safety tools or not, by using computer vision and deep learning. 
+
+#### Note : This operations  done at the  raspberry pi without streaming data all the time only when some employee break the law of safety. 
+
+### Solution properties : 
+cheap , privacy , effective , appropriate for multi platforms.
 
 
 ## Screenshots
