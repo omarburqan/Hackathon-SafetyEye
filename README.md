@@ -7,22 +7,16 @@
 * [Ahmad Amara](https://github.com/AhmadAmara)
 * [Kammel Heib](https://github.com/Kammel-Heib)
 
-#### automatically detect the uses of Safety tools by analyzing the surveillance images. Based on the collected images, we ﬁrst detect the object of interest and further analyze whether the worker wears the Safety tools or not, by using computer vision and deep learning 
+#### Automatically detect the uses of Safety tools by analyzing the surveillance images. Based on the collected images, we ﬁrst detect the object of interest and further analyze whether the worker wears the Safety tools or not, by using computer vision and deep learning. 
 
-### This operations  done at the  raspberry pi without streaming data all the time only when some employee break the law of safety 
+## This operations  done at the  raspberry pi without streaming data all the time only when some employee break the law of safety. 
 
-## Solution properties : cheap , privacy , effective , appropriate for multi platforms
+### Solution properties : cheap , privacy , effective , appropriate for multi platforms.
 
 
 ## Screenshots
 
-![START](screenshots/start.jpg)
 
-![HELP](screenshots/help.jpg)
-
-![BOOK](screenshots/book.jpg)
-
-![SHOW LIST OF USERS](screenshots/users.jpg)
 
 
 ### Prerequisites
