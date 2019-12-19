@@ -20,7 +20,9 @@ Automatically detect the uses of Safety tools by analyzing the surveillance imag
 cheap , privacy , effective , appropriate for multi platforms.
 
 
-## Screenshots
+## Project Videos 
+[![Watch the video](https://drive.google.com/file/d/1rMso6DyG5c1HIsiwc_VfiFCcDQ8LYB16/view)
+
 
 
 
