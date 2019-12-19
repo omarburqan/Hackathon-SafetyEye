@@ -21,7 +21,7 @@ cheap , privacy , effective , appropriate for multi platforms.
 
 
 ## Project Videos 
-[Watch the video](https://drive.google.com/file/d/1rMso6DyG5c1HIsiwc_VfiFCcDQ8LYB16/view/0.jpg)
+[Watch the video](https://drive.google.com/file/d/1rMso6DyG5c1HIsiwc_VfiFCcDQ8LYB16/view)
 
 
 
